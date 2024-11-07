@@ -56,7 +56,14 @@
   #nav-shop{
     background-color: #720303;
   }
-  
+  navbar-collapse.collapse {
+    display: none !important;
+  }
+
+  .navbar-collapse.show {
+    display: block !important;
+  }
+
   /* Dropdown Menu */
   .dropdown {
     position: relative;
@@ -294,7 +301,12 @@ footer{
     #yestheory {
         font-size: 30px; 
     }
+     
+    .carousel-text {
+        display: none; /* Hide <p> text on small screens */
     }
 
+    }
+ 
 
-
+     
